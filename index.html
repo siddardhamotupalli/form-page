@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style type="text/css">
+        td{
+            font-size: 25px;
+            color: white;
+        }
+
+        input, textarea, select{
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body bgcolor="teal">
+    <form>
+        <table width="640" border="1" bordercolor="white" align="center" cellpadding="5">
+            <tr>
+                <td>user name:</td>
+                <td><input type="text" placeholder="enter user name"></td>
+            </tr>
+
+            <tr>
+                <td>password:</td>
+                <td><input type="password" placeholder="enter password"></td>
+            </tr>
+
+            <tr>
+                <td>adress:</td>
+                <td><textarea rows="5" cols="21"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">what is ur favorite color?</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    red:<input type="checkbox">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                   blue:<input type="checkbox">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    green:<input type="checkbox">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    pink:<input type="checkbox">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">who will win the 2056 worldcup?</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    ind:<input type="radio" name="a1">
+                    nz:<input type="radio" name="a1">
+                    sri:<input type="radio" name="a1">
+                     aus:<input type="radio" name="a1">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>course</td>
+                <td>
+                    <select>
+                        <option>----select----</option>
+                        <option>python</option>
+                        <option>java</option>
+                        <option>tally</option>
+                        
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                    <input type="button" value="home">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>
